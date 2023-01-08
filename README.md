@@ -29,3 +29,10 @@ Le principe d'interface unique stipule qu'une interface ne doit contenir que les
 Dans notre projet, la classe LifeForm définit une interface avec les méthodes Update, Feed, Reproduce et Die. Ces méthodes sont nécessaires pour toutes les formes de vie, et ne contiennent pas de méthodes inutiles pour certaines formes de vie. La classe Animal, qui hérite de LifeForm, n'a besoin que de ces méthodes pour fonctionner correctement, et n'est pas chargée de méthodes superflues. Cela respecte le principe d'interface unique.
 
 Par exemple, si la classe LifeForm avait défini une méthode FindPartner qui n'est utilisée que par les animaux, cela aurait violé le principe d'interface unique, car cette méthode ne serait pas nécessaire pour toutes les formes de vie. En revanche, en la déplaçant dans la classe Animal, qui hérite de LifeForm, le principe d'interface unique est respecté, car cette méthode ne sera utilisée que par les animaux et ne sera pas présente dans l'interface de LifeForm.
+
+
+
+
+Remarque :
+
+Par manque de temps, nous n'avons pas pu terminer le projet. Nous avons créer toutes les classes et fonctions dans le fichier MainPage mais malheureusement nous n'avons pas eu le temps de travailler correctement sur l'interface.
